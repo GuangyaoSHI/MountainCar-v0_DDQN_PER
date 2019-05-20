@@ -12,4 +12,4 @@ You need:
 * openai gym
 * numpy
 
-To train new model run `python train.py` with empty models dir. You can tune hyperparameters in `train.py` file.
+To train new model run `python train.py` with empty `models` dir in the root. You can tune hyperparameters in `train.py` file.
