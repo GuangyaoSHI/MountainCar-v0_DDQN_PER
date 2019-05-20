@@ -41,18 +41,6 @@ def init_weights(m):
     else:
         print('Couldn\'t init wieghts of layer with type:', type(m))
 
-def load_file(filename):
-    fd = open(filename, 'rb')
-    ret = pickle.load(fd)
-    fd.close()
-
-    return ret
-
-def save_file(data, filename):
-    fd = open(filename, 'wb')
-    pickle.dump(data, fd)
-    fd.close()
-
 def find_prev_state_files(models_dir, state_file):
     timestamps = [int(name) for name in os.listdir(models_dir)]
     in_dir = os.path.join(models_dir, str(max(timestamps)))
