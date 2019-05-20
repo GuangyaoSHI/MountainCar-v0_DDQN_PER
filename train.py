@@ -14,7 +14,6 @@ from replay_memory import ReplayMemory
 import utils
 
 import numpy as np
-import cv2
 import gym
 
 use_cuda = torch.cuda.is_available()
