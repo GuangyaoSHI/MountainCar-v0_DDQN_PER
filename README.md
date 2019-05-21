@@ -1,4 +1,4 @@
-This is task for JetBrains internship - MountainCar-v0 agent.
+A solution of the JetBrains Internship task - MountainCar-v0 agent.
 
 It uses DDQN with PER to learn.
 
